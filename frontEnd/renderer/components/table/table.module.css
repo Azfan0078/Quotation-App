@@ -1,0 +1,17 @@
+.table {
+    width: 100%;
+    overflow: hidden;
+    font-size: large;
+    border-collapse: collapse;
+}
+
+.thead {
+    background-color: #d8d8d8;
+    height: 2rem;
+}
+
+.tbody {
+    background-color: #d8d8d8;
+    height: 1.5rem;
+    width: 100%;
+}

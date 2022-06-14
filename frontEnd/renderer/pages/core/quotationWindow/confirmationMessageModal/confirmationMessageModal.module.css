@@ -1,0 +1,30 @@
+.confirmationMessageModal {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.textHeader {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 65px;
+}
+
+.divButtons {
+    width: 100%;
+    height: 25%;
+    background-color: rgb(221, 219, 219);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    font-size: large;
+    cursor: pointer;
+}

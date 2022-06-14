@@ -1,0 +1,31 @@
+.allProductsWindow {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d8d8d8;
+}
+
+.hover {
+    background-color: rgb(0, 132, 255) !important;
+    border: 2px solid blue !important;
+    color: white;
+}
+
+.tdHead {
+    border: 1px solid gray;
+    padding: 0.75rem;
+    font-weight: bold;
+}
+
+.bodyTd {
+    border: 1px gray solid;
+    cursor: default;
+}
+
+.selected {
+    color: red;
+    font-weight: bold;
+    background-color: rgb(209, 209, 17);
+}

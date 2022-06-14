@@ -1,0 +1,42 @@
+@import './borderStyles.css';
+@import './heightStyles.css';
+@import './widthStyles.css';
+@import './backGroundStyles.css';
+@import './marginStyles.css';
+@import './paddingStyles.css';
+:root {
+    --mainColor: #d8d8d8
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+body>div {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.displayHidden {
+    display: none;
+}
+
+.displayFlex {
+    display: flex;
+}
+
+.textAlign-center {
+    text-align: center;
+}
+
+.overflowAuto {
+    overflow: auto;
+}

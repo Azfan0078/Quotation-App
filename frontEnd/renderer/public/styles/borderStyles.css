@@ -1,0 +1,11 @@
+.borderGray-1px {
+    border: 1px solid gray
+}
+
+.borderLeftGray-1px {
+    border-left: 1px solid gray;
+}
+
+.borderLeft-0px {
+    border-left: 0px;
+}

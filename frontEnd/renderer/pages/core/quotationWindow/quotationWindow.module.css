@@ -1,0 +1,16 @@
+.quotationWindow {
+    background-color: var(--mainColor);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttonsDiv {
+    align-self: flex-end;
+    margin: 10px;
+}
+
+.buttonsDiv>button {
+    margin-left: 5px;
+}

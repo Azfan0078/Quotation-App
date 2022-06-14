@@ -1,0 +1,44 @@
+.selectQuotationWindow {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--mainColor);
+}
+
+.selectDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select {
+    overflow: hidden;
+    border-radius: 10px;
+    width: 95%;
+    height: 95%;
+    border: 1 solid gray;
+}
+
+.select>option {
+    margin-top: 2px;
+    border-bottom: 1px solid gray;
+}
+
+.buttonsDiv {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(170, 170, 170);
+}
+
+.buttonsDiv>button {
+    height: 33%;
+    margin: 10px;
+}
