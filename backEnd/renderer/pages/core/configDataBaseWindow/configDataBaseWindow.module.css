@@ -1,0 +1,17 @@
+.configDataBaseWindowForm {
+    background-color: var(--mainColor);
+    height: 100%;
+    width: 100%;
+}
+
+.divForm {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    margin-top: 10px;
+}

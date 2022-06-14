@@ -1,0 +1,63 @@
+.serverWindow {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--mainColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.internalDiv {
+    height: 90%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.externalDivOfConsole {
+    height: 99%;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.console {
+    height: 99%;
+    width: 99%;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.buttons {
+    height: 7%;
+    display: flex;
+    align-items: center;
+}
+
+.clearButton {
+    margin-left: 10px;
+}
+
+.gear {
+    height: 100%;
+    width: 4%;
+    cursor: pointer;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divMessages {
+    border: 1px solid gray;
+    height: 90%;
+    overflow: auto;
+}
+
+.message {
+    margin: 5px;
+    padding-left: 10px;
+}
